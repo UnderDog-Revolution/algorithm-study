@@ -3,6 +3,7 @@ from collections import deque
 n = int(input())
 m = int(input())
 
+# 버스 운행표
 bus_time = [[0] * (n+1) for i in range(n+1)]
 possible_cost = []
 
